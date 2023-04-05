@@ -69,7 +69,7 @@ class CreateNoteFragment : Fragment() {
     private var isMicOn = false
     private var isPlaying: Boolean = false
 
-    val v = 6
+    val v = 5
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
