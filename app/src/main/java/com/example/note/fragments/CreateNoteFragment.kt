@@ -69,6 +69,8 @@ class CreateNoteFragment : Fragment() {
     private var isMicOn = false
     private var isPlaying: Boolean = false
 
+    val v = 6
+
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
