@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/attachImage"
+        android:title="Attach Image"
+        android:icon="@drawable/ic_baseline_attach_file_24"
+        android:contentDescription="attach image"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/speech_to_text"
+        android:title="Speech to text"
+        android:icon="@drawable/ic_baseline_mic_on_24"
+        android:contentDescription="speech to text"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/attach_voice_message"
+        android:title="Add audio"
+        android:icon="@drawable/ic_baseline_audio_file_24"
+        android:contentDescription="add audio"
+        app:showAsAction="ifRoom"/>
+
+</menu>
